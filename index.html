@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="src/farms.js"></script>
+    <script src="src/main.js"></script>
+    <title>Banan Clicker</title>
+</head>
+<body>
+    <h1>Banan Clicker</h1>
+
+    <h2>Just collect some bananas</h2>
+
+    <h3>Score: <span class="score" id="score">0</span></h3>
+
+    <button type="button" onclick="scorePlusPlus()">Click Me!</button>
+
+    <h4>Farms</h4>
+
+    <button type="button" id="buyCollector" onclick="collector.purchase()">
+        Buy Collector
+    </button>
+
+    <button type="button" id='buyHarvester' onclick='harvester.purchase()'>
+        Buy Harvester
+    </button>
+
+    <button type="button" id='buySanitizer' onclick='sanitizer.purchase()'>
+        Buy Sanitizer
+    </button>
+
+    <button type="button" id='buyChipmaker' onclick='chipmaker.purchase()'>
+        Buy Chip Maker
+    </button>
+
+</body>
+</html>
